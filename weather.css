@@ -1,0 +1,49 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+
+ background-image: url(image1.jpg);
+ background-size: cover;
+}
+.card{
+ background-color: rgb(0, 0, 0,0.4);
+ padding: 2em;
+ border-radius: 30px;
+ width: 100%;
+ max-width: 420px;
+ margin: 1rem;
+ color: white;
+}
+.search{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.search button{
+ margin: 0.5em;
+ border-radius: 40px;
+ border: none;
+ height: 40px;
+ width: 40px;
+}
+.search input{
+ border: none;
+ outline:none;
+ padding: 0.8em;
+ border-radius: 18px;
+ width: 250px;
+}
+.weather img{
+ width: 70px;
+ height: 70px;
+}
+.search button:hover{
+ background-color: black;
+ color: white;
+}
+.weather.loading{
+ display: none;
+}
