@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Weather App</title>
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link rel="stylesheet" href="weather.css">
+ <link rel="stylesheet" href="font-awesome\css\font-awesome.min.css">
+</head>
+<body>
+
+<div class="container-fluid d-flex align-items-center justify-content-center " style="background-image: url(image1.jpg); background-size: cover; height: 100vh; ">
+<div class="card border-0 ">
+ <div class="card-title">
+  <input type="text" class="search-bar" placeholder="Search" >
+  <button class="btn btn-light btn-outline-dark "><i class="fa fa-search"></i> </button>
+ </div>
+
+<div class="forecast loading">
+ <div class="card-title"><h2 class="city">Weather in Denver</h2></div>
+ <div class="card-title"><h1 class="temp">51°C</h1></div>
+ <img src="https://openweathermap.org/img/wn/04n.png" alt="icon" class="card-img icon">
+ <div class="card-title description" style="font-weight: 600;">Cloudy</div>
+ <div class="card-title humidity">Humidity 60%</div>
+ <div class="card-title wind" style="font-weight: 600;">Wind Speed: 6.2km/h</div>
+</div>
+ 
+ 
+</div>
+</div>
+
+ <script src="js/bootstrap.js"></script>
+ <script src="weather.js"></script>
+</body>
+</html>

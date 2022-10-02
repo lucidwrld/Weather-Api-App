@@ -1,0 +1,47 @@
+.card{
+ background-color: rgb(0, 0, 0,0.4);
+ padding: 2em;
+ border-radius: 30px;
+ width: 100%;
+ max-width: 520px;
+ margin: 1rem;
+ color: white;
+}
+.card button{
+ margin: 0.5em;
+ border-radius: 40px;
+ border: none;
+ height: 40px;
+ width: 40px;
+}
+.card input{
+ border: none;
+ outline:none;
+ padding: 0.5em;
+ border-radius: 18px;
+
+}
+.card img{
+ width: 70px;
+ height: 70px;
+}
+.forecast.loading{
+ display: none;
+}
+@media screen and (max-width: 376px) {
+ .card input{
+ 
+  padding: 0.5em;
+width: 170px;
+ 
+ }
+}
+
+@media screen and (max-width: 281px) {
+ .card input{
+ 
+  padding: 0.5em;
+width: 99.6px;
+ 
+ }
+}
